@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f4090e99ec326f24cd1db919d3e59d8f",
-    "content-hash": "3616b9807260662cc0ba92073ddddc37",
+    "hash": "26ce22c23411be74042189de8c3459c3",
+    "content-hash": "239e444d6e05bac681cafdd7ce925cbe",
     "packages": [
         {
             "name": "composer/installers",
@@ -189,76 +189,6 @@
                 "wordpress"
             ],
             "time": "2015-06-11 15:15:30"
-        },
-        {
-            "name": "skipperinnovations/starter-client",
-            "version": "1.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://skipperinnovations.com/files/si-plugins/starter-client/starter-client-1.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "v1.0.22"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "skipperinnovations/starter-slider",
-            "version": "1.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://skipperinnovations.com/files/si-plugins/starter-slider/starter-slider-1.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "v1.0.22"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "skipperinnovations/starter-team",
-            "version": "1.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://skipperinnovations.com/files/si-plugins/starter-team/starter-team-1.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "v1.0.22"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "skipperinnovations/themeum-project",
-            "version": "1.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://skipperinnovations.com/files/si-plugins/themeum-project/themeum-project-1.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "v1.0.22"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "skipperinnovations/twitters-bootstrap-shortcodes-ultimate-js",
-            "version": "1.0.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://skipperinnovations.com/files/si-plugins/twitters-bootstrap-shortcodes-ultimate-js/twitters-bootstrap-shortcodes-ultimate-js-1.0.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "v1.0.22"
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "vlucas/phpdotenv",
