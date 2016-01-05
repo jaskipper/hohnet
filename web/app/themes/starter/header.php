@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<?php global $themeum; ?>
+<head>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title><?php is_front_page() ? bloginfo('name') : wp_title(''); ?> | <?php is_front_page() ? bloginfo('description') : bloginfo('name'); ?></title>
+	<?php if(isset($themeum['favicon'])){ ?>
+		<link rel="shortcut icon" href="<?php echo $themeum['favicon']; ?>" type="image/x-icon"/>
+	<?php }else{ ?>
+		<link rel="shortcut icon" href="<?php echo get_template_directory_uri().'/images/plus.png' ?>" type="image/x-icon"/>
+	<?php } ?>
+	<link rel="stylesheet" type="text/css" href="">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<!--[if lt IE 9]>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
+	<![endif]-->
+	<?php if(isset($themeum['before_head'])) echo $themeum['before_head'];?>
+	<?php wp_head(); ?>
+</head>
+
+<body <?php body_class() ?>>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=311824144040&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-71269377-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+			<div id="navigation" class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand scroll" href="/">
+
+								<?php
+									if (isset($themeum['logo_image']))
+									   {
+									   		if(!empty($themeum['logo_image'])){
+								?>
+									   		<img src="<?php echo $themeum['logo_image']; ?>" title="">
+								<?php
+											}
+											else{
+												echo '<span>'.get_bloginfo('name').'<span>';
+											}
+									   }
+									else
+									   {
+									    echo '<span>'.get_bloginfo('name').'<span>';
+									   }
+									?>
+						</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<?php if(has_nav_menu('primary')): ?>
+							<?php wp_nav_menu( array( 'theme_location' => 'primary','container' => false,'menu_class' => 'nav navbar-nav', 'walker' => new Onepage_Walker()) ); ?>
+						<?php endif; ?>
+					</div>
+				</div>
+			</div>
+			<a class="" rel='m_PageScroll2id' href="#page" id="return-to-top"><i class="fa fa-arrow-up"></i></a>
+		</header><!--/#header-->
