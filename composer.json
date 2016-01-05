@@ -30,10 +30,6 @@
     {
       "type": "composer",
       "url": "http://wpackagist.org"
-    },
-    {
-        "type": "composer",
-        "url": "http://skipperinnovations.com/files/si-plugins/"
     }
   ],
   "require": {
@@ -53,12 +49,7 @@
     "wpackagist-plugin/wp-migrate-db": "0.7.2",
     "wpackagist-plugin/custom-content-shortcode": ">=3.2.5",
     "wpackagist-plugin/maintenance": "2.5",
-    "wpackagist-plugin/database-sync": "dev-trunk",
-    "skipperinnovations/twitters-bootstrap-shortcodes-ultimate-js": "1.0.1",
-    "skipperinnovations/starter-client": "1.0",
-    "skipperinnovations/starter-slider": "1.0",
-    "skipperinnovations/starter-team": "1.0",
-    "skipperinnovations/themeum-project": "1.0"
+    "wpackagist-plugin/database-sync": "dev-trunk"
   },
   "extra": {
     "installer-paths": {

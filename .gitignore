@@ -1,6 +1,9 @@
 # Application
 web/app/plugins/*
 !web/app/plugins/.gitkeep
+!web/app/plugins/starter*
+!web/app/plugins/themeum*
+!web/app/plugins/twitters-bootstrap-shortcodes-ultimate-js
 web/app/mu-plugins/*/
 web/app/upgrade
 # web/app/uploads/*
