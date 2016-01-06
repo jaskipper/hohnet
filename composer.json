@@ -36,20 +36,20 @@
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.4",
+    "johnpbloch/wordpress": ">=4.4",
     "wpackagist-plugin/add-to-any": ">=1.6.8",
     "wpackagist-plugin/contact-form-7-to-database-extension": ">=2.9.13",
     "wpackagist-plugin/encrypt-email": ">=3.2.0",
     "wpackagist-plugin/wonderm00ns-simple-facebook-open-graph-tags": ">=1.6.3",
     "wpackagist-plugin/ninja-forms": ">=2.9.29",
-    "wpackagist-plugin/page-scroll-to-id": "1.6.0",
-    "wpackagist-plugin/shortcodes-ultimate": "4.9.9",
-    "wpackagist-plugin/video-thumbnails": "2.12.1",
+    "wpackagist-plugin/page-scroll-to-id": ">=1.6.0",
+    "wpackagist-plugin/shortcodes-ultimate": ">=4.9.9",
+    "wpackagist-plugin/video-thumbnails": ">=2.12.1",
     "wpackagist-plugin/wc-shortcodes": ">=1.82",
-    "wpackagist-plugin/wp-migrate-db": "0.7.2",
     "wpackagist-plugin/custom-content-shortcode": ">=3.2.5",
-    "wpackagist-plugin/maintenance": "2.5",
-    "wpackagist-plugin/database-sync": "dev-trunk"
+    "wpackagist-plugin/maintenance": ">=2.5",
+    "wpackagist-plugin/database-sync": "dev-trunk",
+    "roots/soil": "^3.6"
   },
   "extra": {
     "installer-paths": {

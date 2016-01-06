@@ -1,7 +1,5 @@
 <?php
 
-add_filter('show_admin_bar', '__return_false');
-
 define('THEMEUMNAME', wp_get_theme()->get( 'Name' ));
 
 define('THMCSS', get_template_directory_uri().'/css/');
@@ -596,3 +594,32 @@ class Onepage_Walker extends Walker_Nav_menu{
 		}
 	}
 }
+
+//Soil
+
+//Cleaner WordPress markup
+add_theme_support('soil-clean-up');
+
+//Disable asset versioning
+add_theme_support('soil-disable-asset-versioning');
+
+//Disable trackbacks
+//add_theme_support('soil-disable-trackbacks');
+
+//Google Analytics (more info)
+add_theme_support('soil-google-analytics', 'UA-71269377-1');
+
+//Load jQuery from the Google CDN
+add_theme_support('soil-jquery-cdn');
+
+//Move all JS to the footer
+add_theme_support('soil-js-to-footer');
+
+//Cleaner walker for navigation menus
+add_theme_support('soil-nav-walker');
+
+//Convert search results from /?s=query to /search/query/
+add_theme_support('soil-nice-search');
+
+//Root relative URLs
+//add_theme_support('soil-relative-urls');

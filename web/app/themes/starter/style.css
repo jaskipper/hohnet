@@ -903,9 +903,6 @@ footer h2 {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     background-color: rgba(231, 231, 231, 0.180392);
 }
-#navigation .navbar-nav li.current-menu-item a, #navigation .navbar-nav > li.current-menu-parent > a {
-    color: #fff !important;
-}
 
 #masthead.sticky #navigation .navbar-nav > li > a {
 	padding: 20px;
@@ -1350,12 +1347,6 @@ img.attachment-wccarousel, img.wp-post-image {
     background-color: #56ab00;
 }
 .textwidget #progressbars {
-}
-.helpuswidget {
-    display: none;
-}
-.page-id-1537 .helpuswidget {
-    display: block;
 }
 #text-4 .textwidget {
     text-align: center;
