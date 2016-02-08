@@ -9,20 +9,20 @@
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.22",
+            "version": "v1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -103,20 +103,20 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-10-29 23:28:48"
+            "time": "2016-01-27 12:54:22"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.4",
+            "version": "4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b"
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
-                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fe9320de0793602084c600e22c0c5e0bb601a264",
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-12-08 23:46:14"
+            "time": "2016-02-02 17:16:14"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -285,15 +285,15 @@
         },
         {
             "name": "wpackagist-plugin/add-to-any",
-            "version": "1.6.9",
+            "version": "1.6.11",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/add-to-any/",
-                "reference": "tags/1.6.9"
+                "reference": "tags/1.6.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/add-to-any.1.6.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/add-to-any.1.6.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -305,15 +305,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7-to-database-extension",
-            "version": "2.9.13",
+            "version": "2.9.15",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/contact-form-7-to-database-extension/",
-                "reference": "tags/2.9.13"
+                "reference": "tags/2.9.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7-to-database-extension.2.9.13.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7-to-database-extension.2.9.15.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -325,15 +325,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-content-shortcode",
-            "version": "3.2.8",
+            "version": "3.3.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/custom-content-shortcode/",
-                "reference": "trunk"
+                "reference": "tags/3.3.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-content-shortcode.zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-content-shortcode.3.3.6.zip",
                 "reference": null,
                 "shasum": null
             },
