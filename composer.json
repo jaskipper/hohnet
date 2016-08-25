@@ -29,7 +29,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "http://wpackagist.org"
+      "url": "https://wpackagist.org"
     }
   ],
   "require": {
@@ -42,7 +42,7 @@
     "wpackagist-plugin/encrypt-email": ">=3.2.0",
     "wpackagist-plugin/wonderm00ns-simple-facebook-open-graph-tags": ">=1.6.3",
     "wpackagist-plugin/ninja-forms": ">=2.9.29",
-    "wpackagist-plugin/page-scroll-to-id": ">=1.6.0",
+    "wpackagist-plugin/page-scroll-to-id": "1.6.0",
     "wpackagist-plugin/shortcodes-ultimate": ">=4.9.9",
     "wpackagist-plugin/video-thumbnails": ">=2.12.1",
     "wpackagist-plugin/wc-shortcodes": ">=1.82",
