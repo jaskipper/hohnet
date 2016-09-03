@@ -48,7 +48,7 @@ if($_POST) {
         }
         else {
             $array['valid'] = 1;
-            $array['message'] = '<i class="fa fa-check" aria-hidden="true"></i> Thanks for your subscription! We sent you a confirmation email.';
+            $array['message'] = '<i class="fa fa-check" aria-hidden="true"></i> Thanks for your subscription! We sent you a confirmation email. Please confirm your email address to complete your subscription.';
         }
 
             echo json_encode($array);

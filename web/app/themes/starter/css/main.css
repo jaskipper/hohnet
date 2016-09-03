@@ -1124,3 +1124,6 @@ h3 {
   color: #fff;
   font-weight: bold;
 }
+#sidebar .success-message, #sidebar .error-message {
+  color: #222;
+}
