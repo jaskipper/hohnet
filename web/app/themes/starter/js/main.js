@@ -111,7 +111,7 @@ jQuery(document).ready(function($) {
         style: 'inverse'
     });
 
-    $('.subscribe').submit(function(e) {
+    $('form.subscribe').submit(function(e) {
         e.preventDefault();
         var postdata = $('.subscribe form').serialize();
         $.ajax({
