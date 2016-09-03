@@ -32,7 +32,7 @@
                     </article>
 
                     <?php // comment_template(); ?>
-                    <div class="fb-comments" data-href="<?php echo get_permalink( $post->ID ); ?>" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
+                    <!--<div class="fb-comments" data-href="<?php echo get_permalink( $post->ID ); ?>" data-width="100%" data-numposts="5" data-colorscheme="light"></div>-->
 
                 <?php endwhile; ?>
             </div> <!--/#content-->
