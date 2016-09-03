@@ -48,6 +48,7 @@
     "wpackagist-plugin/custom-content-shortcode": ">=3.2.5",
     "wpackagist-plugin/maintenance": ">=2.5",
     "wpackagist-plugin/database-sync": "dev-trunk",
+    "wpackagist-plugin/ewww-image-optimizer": "2.9.7",
     "roots/soil": "^3.6",
     "wpackagist-plugin/give": "1.6",
     "wpackagist-plugin/simple-share-buttons-adder": "6.2.4",
