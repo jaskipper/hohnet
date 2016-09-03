@@ -1120,3 +1120,7 @@ h3 {
 .text-warning:hover {
   color: #f06028;
 }
+.success-message, .error-message {
+  color: #fff;
+  font-weight: bold;
+}

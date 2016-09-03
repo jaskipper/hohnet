@@ -44,11 +44,11 @@ if($_POST) {
 
         if($result == false) {
             $array['valid'] = 0;
-            $array['message'] = 'An error occurred! Please try again later.';
+            $array['message'] = '<i class="fa fa-times" aria-hidden="true"></i> An error occurred! Please try again later.';
         }
         else {
             $array['valid'] = 1;
-            $array['message'] = 'Thanks for your subscription! We sent you a confirmation email.';
+            $array['message'] = '<i class="fa fa-check" aria-hidden="true"></i> Thanks for your subscription! We sent you a confirmation email.';
         }
 
             echo json_encode($array);

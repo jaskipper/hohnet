@@ -113,7 +113,8 @@ jQuery(document).ready(function($) {
 
     $('form.subscribe').submit(function(e) {
         e.preventDefault();
-        var postdata = $('.subscribe form').serialize();
+        var postdata = $(this).serialize();
+        var myformparent = $(this).parent();
         $.ajax({
             type: 'POST',
             url: '/app/themes/starter/lib/subscribe.php',
@@ -121,22 +122,23 @@ jQuery(document).ready(function($) {
             dataType: 'json',
             success: function(json) {
                 if(json.valid == 0) {
-                    $('.success-message').hide();
-                    $('.error-message').hide();
-                    $('.error-message').html(json.message);
-                    $('.error-message').fadeIn('fast', function(){
-                        $('.subscribe form').addClass('animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-                            $(this).removeClass('animated shake');
+                    $('.success-message', myformparent).hide();
+                    $('.error-message', myformparent).hide();
+                    $('.error-message', myformparent).html(json.message);
+                    $('.error-message', myformparent).fadeIn('fast', function(){
+                        myformparent.addClass('animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                            myformparent.removeClass('animated shake');
                         });
                     });
                 }
                 else {
-                    $('.error-message').hide();
-                    $('.success-message').hide();
-                    $('.subscribe form').hide();
-                    $('.success-message').html(json.message);
-                    $('.success-message').fadeIn('fast', function(){
-                        $('.top-content').backstretch("resize");
+                    $('.error-message', myformparent).hide();
+                    $('.success-message', myformparent).hide();
+                    $('.btn', myformparent).hide();
+                    $('.success-message', myformparent).html(json.message);
+                    $('.success-message', myformparent).fadeIn('fast', function(){
+                      //$('.top-content', this).backstretch("resize");
+                        myformparent.find("input[type=text], textarea").val("");
                     });
                 }
             }
