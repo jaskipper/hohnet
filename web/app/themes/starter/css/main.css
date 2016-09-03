@@ -898,25 +898,18 @@ h3 {
 }
 
 .subscribe {
-    margin-bottom: 10px;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+
 }
 
 .subscribe input {
-    border-radius: 0;
-    font-size: 14px;
+
 }
 
 .subscribe input:focus {
-    box-shadow: none;
-    border: 1px solid #CCC;
+
 }
 
 .subscribe button,.subscribe button:hover {
-    color: #fff;
-    background: #ce4028;
-    border: 1px solid #ce4028;
-    border-radius: 0;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1114,4 +1107,16 @@ h3 {
   width: 100%;
   text-align: center;
   margin-bottom: 15px;
+}
+.btn-warning {
+  background-color: #ff662b;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
+  background-color: #f06028;
+}
+.text-warning {
+  color: #ff662b;
+}
+.text-warning:hover {
+  color: #f06028;
 }

@@ -49,11 +49,10 @@
     "wpackagist-plugin/maintenance": ">=2.5",
     "wpackagist-plugin/database-sync": "dev-trunk",
     "roots/soil": "^3.6",
-    "wpackagist-plugin/mailchimp-for-wp": "4.0.3",
     "wpackagist-plugin/give": "1.6",
     "wpackagist-plugin/simple-share-buttons-adder": "6.2.4",
     "wpackagist-plugin/mailgun": "1.4.1"
-    },
+      },
   "extra": {
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
