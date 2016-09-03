@@ -1,0 +1,7 @@
+/**
+ * Admin Styles Applied to PDF Receipts Tab
+ */
+
+iframe#give_pdf_builder_ifr {
+    min-height:700px;
+}

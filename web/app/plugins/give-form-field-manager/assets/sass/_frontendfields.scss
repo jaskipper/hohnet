@@ -1,0 +1,37 @@
+//Repeater Field
+form[id*='give-form'] {
+
+  .ffm-clone-field, .ffm-remove-field {
+
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+
+	&:before {
+	  font-size: 20px;
+	}
+
+  }
+
+  //Repeater Table
+  .give-repeater-table {
+
+	th, td {
+	  padding: 2px;
+	}
+
+  }
+
+  .mce-tinymce {
+	border:1px solid #CCC;
+  }
+
+  .give-has-error {
+
+	select, input, textarea, .mce-tinymce {
+	  border:1px solid red;
+	}
+
+  }
+
+}

@@ -11,7 +11,7 @@
 		<link rel="shortcut icon" href="<?php echo get_template_directory_uri().'/images/plus.png' ?>" type="image/x-icon"/>
 	<?php } ?>
 	<link rel="stylesheet" type="text/css" href="">
-
+  <link href="https://fonts.googleapis.com/css?family=Stardos+Stencil" rel="stylesheet">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if lt IE 9]>
@@ -31,7 +31,7 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<div id="page" class="hfeed site">
-		<header id="masthead" class="site-header" role="banner">
+		<header id="masthead" class="site-header sticky" role="banner">
 			<div id="navigation" class="navbar navbar-default">
 				<div class="container">
 					<div class="navbar-header">
@@ -40,7 +40,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand scroll" href="/">
+						<a class="navbar-brand scroll sticky2" href="/">
 
 								<?php
 									if (isset($themeum['logo_image']))

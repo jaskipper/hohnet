@@ -1,0 +1,472 @@
+# Copyright (C) 2015 WordImpress
+# This file is distributed under the same license as the Give - Form Field Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Give - Form Field Manager 1.0\n"
+"Report-Msgid-Bugs-To: https://givewp.com/\n"
+"POT-Creation-Date: 2015-10-09 18:18:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP-Translations (http://wp-translations.org/)\n"
+"Language-Team: WP-Translations <wpt@wp-translations.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: give-ffm.php:74 includes/admin/admin-form.php:144
+#: includes/admin/admin-posting.php:32
+msgid "Form Fields Manager"
+msgstr ""
+
+#: includes/admin/admin-form.php:120
+msgid "Donation form fields updated!"
+msgstr ""
+
+#: includes/admin/admin-form.php:121
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/admin/admin-form.php:122
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/admin/admin-form.php:123
+msgid "Donation form updated."
+msgstr ""
+
+#: includes/admin/admin-form.php:124
+msgid "Form restored to revision from %s"
+msgstr ""
+
+#: includes/admin/admin-form.php:125
+msgid "Donation form published."
+msgstr ""
+
+#: includes/admin/admin-form.php:126
+msgid "Donation form fields saved!"
+msgstr ""
+
+#: includes/admin/admin-form.php:127
+msgid "Donation form submitted."
+msgstr ""
+
+#: includes/admin/admin-form.php:129
+msgid "Donation form draft updated."
+msgstr ""
+
+#: includes/admin/admin-form.php:172
+msgid "Click to add to the editor"
+msgstr ""
+
+#: includes/admin/admin-form.php:177 includes/admin/admin-form.php:339
+msgid "Last Name"
+msgstr ""
+
+#: includes/admin/admin-form.php:178
+msgid "Text"
+msgstr ""
+
+#: includes/admin/admin-form.php:179 includes/admin/admin-template.php:200
+msgid "Textarea"
+msgstr ""
+
+#: includes/admin/admin-form.php:180
+msgid "Dropdown"
+msgstr ""
+
+#: includes/admin/admin-form.php:181
+msgid "Date"
+msgstr ""
+
+#: includes/admin/admin-form.php:182
+msgid "Radio"
+msgstr ""
+
+#: includes/admin/admin-form.php:183
+msgid "Checkbox"
+msgstr ""
+
+#: includes/admin/admin-form.php:184
+msgid "File Upload"
+msgstr ""
+
+#: includes/admin/admin-form.php:185
+msgid "URL"
+msgstr ""
+
+#: includes/admin/admin-form.php:186
+msgid "Multi Select"
+msgstr ""
+
+#: includes/admin/admin-form.php:187
+msgid "Repeat Field"
+msgstr ""
+
+#: includes/admin/admin-form.php:188 includes/admin/admin-form.php:323
+msgid "HTML"
+msgstr ""
+
+#: includes/admin/admin-form.php:189
+msgid "Do Action"
+msgstr ""
+
+#: includes/admin/admin-form.php:244
+msgid ""
+"Direction text goes here to instruct the user on how to quickly use the "
+"add-on with a link to the documentation."
+msgstr ""
+
+#: includes/admin/admin-form.php:245
+msgid "Toggle Fields"
+msgstr ""
+
+#: includes/admin/admin-form.php:250
+msgid "Your give form has no fields!"
+msgstr ""
+
+#: includes/admin/admin-form.php:283
+msgid "Custom field: Text"
+msgstr ""
+
+#: includes/admin/admin-form.php:287
+msgid "Custom field: Textarea"
+msgstr ""
+
+#: includes/admin/admin-form.php:291
+msgid "Custom field: Select"
+msgstr ""
+
+#: includes/admin/admin-form.php:295
+msgid "Custom field: Multiselect"
+msgstr ""
+
+#: includes/admin/admin-form.php:299
+msgid "Custom field: Radio"
+msgstr ""
+
+#: includes/admin/admin-form.php:303
+msgid "Custom field: Checkbox"
+msgstr ""
+
+#: includes/admin/admin-form.php:307
+msgid "Custom field: File Upload"
+msgstr ""
+
+#: includes/admin/admin-form.php:311
+msgid "Custom field: URL"
+msgstr ""
+
+#: includes/admin/admin-form.php:315
+msgid "Custom field: E-Mail"
+msgstr ""
+
+#: includes/admin/admin-form.php:319
+msgid "Custom field: Repeat Field"
+msgstr ""
+
+#: includes/admin/admin-form.php:327
+msgid "Action Hook"
+msgstr ""
+
+#: includes/admin/admin-form.php:331
+msgid "Custom Field: Date"
+msgstr ""
+
+#: includes/admin/admin-form.php:335
+msgid "First Name"
+msgstr ""
+
+#: includes/admin/admin-form.php:343
+msgid "Email"
+msgstr ""
+
+#: includes/admin/admin-posting.php:176
+msgid "Update"
+msgstr ""
+
+#: includes/admin/admin-template.php:25
+msgid "Click and Drag to rearrange"
+msgstr ""
+
+#: includes/admin/admin-template.php:30
+msgid "Field Label not set"
+msgstr ""
+
+#: includes/admin/admin-template.php:39
+msgid "Toggle Panel"
+msgstr ""
+
+#: includes/admin/admin-template.php:78
+msgid "Required"
+msgstr ""
+
+#: includes/admin/admin-template.php:82
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/admin-template.php:85
+msgid "No"
+msgstr ""
+
+#: includes/admin/admin-template.php:92
+msgid "Field Label"
+msgstr ""
+
+#: includes/admin/admin-template.php:93
+msgid "Enter a title of this field"
+msgstr ""
+
+#: includes/admin/admin-template.php:98
+msgid "Meta Key"
+msgstr ""
+
+#: includes/admin/admin-template.php:99
+msgid "Name of the meta key this field will save to"
+msgstr ""
+
+#: includes/admin/admin-template.php:110
+msgid "Help text"
+msgstr ""
+
+#: includes/admin/admin-template.php:111
+msgid "Give the user some information about this field"
+msgstr ""
+
+#: includes/admin/admin-template.php:116
+msgid "CSS Class Name"
+msgstr ""
+
+#: includes/admin/admin-template.php:117
+msgid "Add a CSS class name for this field"
+msgstr ""
+
+#: includes/admin/admin-template.php:142 includes/admin/admin-template.php:190
+#: includes/admin/admin-template.php:662
+msgid "Placeholder text"
+msgstr ""
+
+#: includes/admin/admin-template.php:143
+msgid "Text for HTML5 placeholder attribute"
+msgstr ""
+
+#: includes/admin/admin-template.php:147 includes/admin/admin-template.php:195
+#: includes/admin/admin-template.php:668
+msgid "Default value"
+msgstr ""
+
+#: includes/admin/admin-template.php:148
+msgid "The default value this field will have"
+msgstr ""
+
+#: includes/admin/admin-template.php:152 includes/admin/admin-template.php:674
+msgid "Size"
+msgstr ""
+
+#: includes/admin/admin-template.php:153
+msgid "Size of this input field"
+msgstr ""
+
+#: includes/admin/admin-template.php:180
+msgid "Rows"
+msgstr ""
+
+#: includes/admin/admin-template.php:185 includes/admin/admin-template.php:680
+msgid "Columns"
+msgstr ""
+
+#: includes/admin/admin-template.php:203
+msgid "Normal"
+msgstr ""
+
+#: includes/admin/admin-template.php:205
+msgid "Rich textarea"
+msgstr ""
+
+#: includes/admin/admin-template.php:207
+msgid "Teeny Rich textarea"
+msgstr ""
+
+#: includes/admin/admin-template.php:304
+msgid "add another choice"
+msgstr ""
+
+#: includes/admin/admin-template.php:305
+msgid "remove this choice"
+msgstr ""
+
+#: includes/admin/admin-template.php:330 includes/admin/admin-template.php:354
+#: includes/admin/admin-template.php:387 includes/admin/admin-template.php:420
+#: includes/admin/admin-template.php:462 includes/admin/admin-template.php:504
+#: includes/admin/admin-template.php:575 includes/admin/admin-template.php:597
+#: includes/admin/admin-template.php:619 includes/admin/admin-template.php:711
+#: includes/admin/admin-template.php:746 includes/admin/admin-template.php:786
+#: includes/admin/admin-template.php:832
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/admin-template.php:376 includes/admin/admin-template.php:409
+#: includes/admin/admin-template.php:451 includes/admin/admin-template.php:493
+msgid "Options"
+msgstr ""
+
+#: includes/admin/admin-template.php:434 includes/admin/admin-template.php:476
+msgid ""
+"First element of the select dropdown. Leave this empty if you don't want to "
+"show this field"
+msgstr ""
+
+#: includes/admin/admin-template.php:445 includes/admin/admin-template.php:487
+msgid "Select Text"
+msgstr ""
+
+#: includes/admin/admin-template.php:535
+msgid "Enter maximum upload size limit in KB"
+msgstr ""
+
+#: includes/admin/admin-template.php:536
+msgid "Number of images can be uploaded"
+msgstr ""
+
+#: includes/admin/admin-template.php:547
+msgid "Max. file size"
+msgstr ""
+
+#: includes/admin/admin-template.php:553
+msgid "Max. files"
+msgstr ""
+
+#: includes/admin/admin-template.php:559
+msgid "Allowed Files"
+msgstr ""
+
+#: includes/admin/admin-template.php:654
+msgid "Multiple Column"
+msgstr ""
+
+#: includes/admin/admin-template.php:734
+msgid "Title"
+msgstr ""
+
+#: includes/admin/admin-template.php:740
+msgid "HTML Codes"
+msgstr ""
+
+#: includes/admin/admin-template.php:766
+msgid "Hook Name"
+msgstr ""
+
+#: includes/admin/admin-template.php:769
+msgid "Name of the hook"
+msgstr ""
+
+#: includes/admin/admin-template.php:772
+msgid ""
+"This is for developers to add dynamic elements as they want. It provides "
+"the chance to add whatever input type you want to add in this form."
+msgstr ""
+
+#: includes/admin/admin-template.php:773
+msgid ""
+"You can bind your own functions to render the form to this action hook. "
+"You'll be given 3 parameters to play with: $form_id, $post_id, "
+"$form_settings."
+msgstr ""
+
+#: includes/admin/admin-template.php:802
+msgid "The date format"
+msgstr ""
+
+#: includes/admin/admin-template.php:813
+msgid "Date Format"
+msgstr ""
+
+#: includes/admin/admin-template.php:819
+msgid "Time"
+msgstr ""
+
+#: includes/admin/admin-template.php:825
+msgid "Enable time input"
+msgstr ""
+
+#: includes/class-frontend-form.php:133
+msgid "Please enter "
+msgstr ""
+
+#: includes/class-render-form.php:200
+msgid "Personal Info"
+msgstr ""
+
+#: includes/class-render-form.php:553
+msgid "Insert Photo"
+msgstr ""
+
+#: includes/class-render-form.php:616
+msgid "Select File(s)"
+msgstr ""
+
+#: includes/class-render-form.php:627
+msgid "Download File"
+msgstr ""
+
+#: includes/class-render-form.php:846 includes/class-render-form.php:862
+msgid "Add another"
+msgstr ""
+
+#: includes/class-render-form.php:847 includes/class-render-form.php:863
+msgid "Remove this choice"
+msgstr ""
+
+#: includes/class-setup.php:36
+msgid "Please fill out this required field"
+msgstr ""
+
+#: includes/class-upload.php:124 includes/class-upload.php:130
+msgid "Delete"
+msgstr ""
+
+#: includes/functions.php:10
+msgid "Images"
+msgstr ""
+
+#: includes/functions.php:14
+msgid "Audio"
+msgstr ""
+
+#: includes/functions.php:18
+msgid "Videos"
+msgstr ""
+
+#: includes/functions.php:22
+msgid "PDF"
+msgstr ""
+
+#: includes/functions.php:26
+msgid "Office Documents"
+msgstr ""
+
+#: includes/functions.php:30
+msgid "Zip Archives"
+msgstr ""
+
+#: includes/functions.php:34
+msgid "Executable Files"
+msgstr ""
+
+#: includes/functions.php:38
+msgid "CSV"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easily add and control Give's form fields using an easy-to-use interface"
+msgstr ""

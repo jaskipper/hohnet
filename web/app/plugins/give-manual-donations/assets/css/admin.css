@@ -1,0 +1,72 @@
+/*!
+ * Give Manual Donations Admin SCSS/CSS
+ *
+ * @description: The Main SCSS file for ADMIN styles
+ * @package:     Give_Manual_Donations
+ * @copyright:   Copyright (c) 2016, WordImpress
+ * @license:     http://opensource.org/licenses/gpl-2.0.php GNU Public License
+*/
+
+p.description, label.description, .form-table td p.description, .form-table td label.description {
+    color: #aaa;
+    font-style: italic;
+    margin: 0;
+    padding-top: .5em;
+    font-size: 13px;
+    display: block;
+    clear: both;
+}
+
+.give-md-email .customer-info {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.give-md-email .create-new-customer {
+    float: left;
+}
+
+tr.new-customer {
+    background: #e4e4e4;
+}
+
+tr.new-customer > th {
+    padding-left: 15px;
+}
+
+/* Field Touch Ups */
+
+input[type='text'] {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    top: 6px !important;
+}
+
+a.ui-state-default.ui-state-active {
+    background-image: none;
+    background: #999;
+    color: white;
+    font-weight: 700;
+}
+
+.give_note {
+    max-width: 600px;
+    height: 150px;
+}
+
+p.submit {
+    clear: both;
+    background: #f5f5f5;
+    border-color: #dfdfdf;
+    overflow: auto;
+    margin: 8px 0;
+    padding: 12px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 13px;
+    line-height: 2.1em;
+}
+

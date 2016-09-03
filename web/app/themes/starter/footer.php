@@ -19,13 +19,19 @@
                     Telephone: <?php echo do_shortcode( '[encrypted_email]615-900-0757[/encrypted_email]'); ?><br>
                     E-Mail: <?php echo do_shortcode( '[encrypted_email]jasonskipper@gmail.com[/encrypted_email]'); ?>
                     </p>
-                    <p class="fplastlttext"><a href="https://hohnet.com">The Hand of Hur, Inc.</a>    |     All Rights Reserved.</p>
+                    <p class="fplastlttext">&copy; <?php echo date("Y") ?> The Hand of Hur, Inc.  |  All Rights Reserved.</p>
                 </div>
-                <div class="col-sm-4">
-                    <h2>Pages</h2>
-                    <?php if(has_nav_menu('secondary')): ?>
-                        <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'container'  => false, 'menu_class' => 'footer-menu','depth' => 1 ) ); ?>
-                    <?php endif; ?>
+                <div class="col-sm-4 footer-links">
+                    <h2>Links</h2>
+                    <p>Below are some websites that are useful or meaningful to us in some way.</p>
+                    <ul>
+                      <li><a href="https://skipperinnovations.com" target="_blank" data-title="Skipper Innovations" data-content="Skipper Innovations - My Business Website" title="Skipper Innovations - My Business Website">Skipper Innovations</a></li>
+                      <li><a href="https://www.ministrygenius.com" target="_blank" data-title="Ministry Genius" data-content="Ministry Genius - A new Business venture that I (Jason) am starting on... More to come soon" title="Ministry Genius - A new Business venture that I (Jason) am starting on... More to come soon">Ministry Genius</a></li>
+                      <li><a href="https://www.climbcc.com" target="_blank" data-title="Climb Community Church" data-content="Climb Community Church - Our Dalton Church Plant. Website will be up ASAP" title="Climb Community Church - Our Dalton Church Plant. Website will be up ASAP">Climb Community Church</a></li>
+                      <li><a href="http://www.skipperstrings.com" target="_blank" data-title="Skipper Strings" data-content="My Dad, Roger Skipper's Business website." title="My Dad, Roger Skipper's Business website.">Skipper Custom Instruments</a></li>
+                      <li><a href="https://www.youtube.com/user/eebeeproductions/videos" target="_blank" data-title="Erynn's YouTube" data-content="Erynn's (my daughter) Youtube Channel" title="Erynn's (my daughter) Youtube Channel">Erynn & Bella's YouTube Channel</a></li>
+                      <li><a href="https://www.youtube.com/channel/UCubhwe8_rhKrDu_PjSHBXAQ" target="_blank" data-title="Jordan's Youtube" data-content="Jordan's (my son) Youtube Channel" title="Jordan's (my son) Youtube Channel">Jordan's YouTube Channel</a></li>
+                    </ul>
 
                 </div>
                 <div class="col-sm-4">
@@ -35,17 +41,12 @@
                             <li><a href="http://facebook.com/jasonaskipper" data-title="Jason's Facebook" data-content="Follow Jason & keep up to date on the latest news!" target="blank" title="Jason's Facebook"><i class="fa fa-facebook jason"></i></a></li>
                             <li><a href="http://facebook.com/norahskipper" data-title="Norah's Facebook" data-content="Follow Norah & keep up to date on the latest news!"  target="blank" title="Norah's Facebook"><i class="fa fa-facebook norah"></i></a></li>
                             <li><a href="http://twitter.com/jasonaskipper" data-title="Jason's Twitter" data-content="Follow Jason & keep up to date on the latest news!" target="blank" title="Jason's Twitter"><i class="fa fa-twitter jason"></i></a></li>
-                            <li><a href="http://twitter.com/norahskipper" data-title="Norah's Twitter" data-content="Follow Norah & keep up to date on the latest news!" target="blank" title="Norah's Twitter"><i class="fa fa-twitter norah"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/jasonaskipper" data-title="Jason's LinkedIn Profile" data-content="Follow Jason & see all that he is doing in his ministry & professional world!" target="blank" title="Jason's LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="http://pinterest.com/norahskipper" data-title="Norah's Pinterest" data-content="Follow Norah & see what she is doing on Pinterest!" target="blank" title="Norah's Pinterest"><i class="fa fa-pinterest"></i></a></li>
                             <li><a href="http://instagram.com/jasonaskipper" data-title="Jason's Instagram" data-content="Follow Jason & see what he's doing on Instagram!" target="blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="http://youtube.com/jasonaskipper" data-title="Jason's Youtube" data-content="Follow Jason & see his latest personal and ministry videos on Youtube!" target="blank" title="Jason's Youtube"><i class="fa fa-youtube"></i></a></li>
-                            <li><a href="https://www.youtube.com/user/eebeeproductions/feed" data-title="Erynn & Bella's Youtube" data-content="This is Erynn & Bella's (Alea) Youtube channel. Subscribe to their channel and see the incredible talent that God has given them!" target="blank" title="Erynn's Youtube"><i class="fa fa-youtube norah"></i></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCubhwe8_rhKrDu_PjSHBXAQ" data-title="Jordan's Youtube" data-content="This is Jordan's Youtube channel. Subscribe and see his little videos with gameplay and more. ;-)" target="blank" title="Jordan's Youtube"><i class="fa fa-youtube jordan"></i></a></li>
 
                         </ul>
                         <div class="skipperinnovations">
-                            <a target="_blank" data-content="This is Jason's personal Web-Design | Audio/Visual Solutions Business. If you are in need of website design or Audio/Visual/Lighting consulting, setup and training, contact us and we'll see what we can do for you!<br>Click on the image to visit our website." href="http://www.skipperinnovations.com/" title="Skipper Innovations"><img class="wp-post-image" style="width: 100%; max-width: 480px;" src="/app/uploads/2015/02/skipinlogored1.png" alt="client5"></a>
+                            <a target="_blank" data-content="This is Jason's personal Business." href="http://www.skipperinnovations.com/" title="Skipper Innovations"><img class="wp-post-image" style="width: 100%; max-width: 480px;" src="/app/uploads/2015/02/skipinlogored1.png" alt="client5"></a>
                         </div>
                     </div>
                 </div>

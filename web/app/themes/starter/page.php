@@ -1,4 +1,12 @@
 <?php get_header(); ?>
+<div id="pageheaderimage">
+  <?php /* The loop */ ?>
+  <?php while ( have_posts() ): the_post(); ?>
+
+          <h1 class="entry-title"><?php the_title(); ?></h1>
+
+  <?php endwhile; ?>
+</div>
 
     <section id="main" class="clearfix">
         <div id="page" class="container">
@@ -8,7 +16,7 @@
 
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-                        <h1 class="entry-title"><?php the_title(); ?></h1>
+                        <h2 class="entry-title"><?php the_title(); ?></h2>
 
                         <?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
                         <div class="entry-thumbnail">
