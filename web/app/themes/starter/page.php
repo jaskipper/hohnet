@@ -3,7 +3,7 @@
   <?php /* The loop */ ?>
   <?php while ( have_posts() ): the_post(); ?>
 
-          <h1 class="entry-title"><?php the_title(); ?></h1>
+          <h1 class="entry-title text-warning"><?php the_title(); ?></h1>
 
   <?php endwhile; ?>
 </div>
