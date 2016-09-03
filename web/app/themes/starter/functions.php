@@ -128,7 +128,7 @@ if(!function_exists('themeum_style')):
 	      //wp_enqueue_script('appear',THMJS.'jquery.appear.js',array(),false,true);
         wp_enqueue_script('main',THMJS.'main.js',array(),false,true);
 	      wp_enqueue_script('liquidimage',THMJS.'imgLiquid-min.js',array(),false,true);
-        wp_enqueue_style('quick-style',get_template_directory_uri().'/quick-style.php',array(),false,'all');
+        //wp_enqueue_style('quick-style',get_template_directory_uri().'/quick-style.php',array(),false,'all');
 
 		global $themeum;
 

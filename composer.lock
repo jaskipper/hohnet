@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "14cda9fb779160e27c0700b337d444b6",
-    "content-hash": "92fa2a72eff9e87c1a88801f8f64fdc8",
+    "hash": "4bbfada5ce5c9780785c57d1fd007beb",
+    "content-hash": "77f5acbb81f955f79b5303d2876b6fc3",
     "packages": [
         {
             "name": "composer/installers",
@@ -286,6 +286,26 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "wpackagist-plugin/bwp-minify",
+            "version": "1.3.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bwp-minify/",
+                "reference": "tags/1.3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bwp-minify.1.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bwp-minify/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7-to-database-extension",
@@ -587,26 +607,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wonderm00ns-simple-facebook-open-graph-tags/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-super-minify",
-            "version": "1.3.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-super-minify/",
-                "reference": "tags/1.3.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-super-minify.1.3.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-super-minify/"
         }
     ],
     "packages-dev": [],
