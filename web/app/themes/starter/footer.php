@@ -46,7 +46,7 @@
 
                         </ul>
                         <div class="skipperinnovations">
-                            <a target="_blank" data-content="This is Jason's personal Business." href="http://www.skipperinnovations.com/" title="Skipper Innovations"><img class="wp-post-image" style="width: 100%; max-width: 480px;" src="/app/uploads/2015/02/skipinlogored1-300x59.png" alt="client5"></a>
+                            <a target="_blank" data-content="This is Jason's personal Business." href="http://www.skipperinnovations.com/" title="Skipper Innovations"><img class="wp-post-image" style="width: 100%; max-width: 480px;" src="/app/uploads/2015/02/skipinlogored.png" alt="client5"></a>
                         </div>
                     </div>
                 </div>
