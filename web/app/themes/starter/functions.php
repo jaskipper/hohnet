@@ -58,6 +58,8 @@ if(!function_exists('thmtheme_setup')):
 		add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form' ) );
 
 		add_theme_support( 'automatic-feed-links' );
+    add_theme_support('soil-js-to-footer');
+
 
 		add_editor_style('');
 
