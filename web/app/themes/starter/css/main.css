@@ -1000,8 +1000,8 @@ h3 {
 }
 
 #about-us.page-wrapper.full-width {
-    background-image: url(/app/uploads/2016/09/grungemap2-1.jpg);
-    background-size: 100%;
+    background-image: url(/app/uploads/2016/09/grungemap2-2.jpg);
+    background-size: cover%;
 }
 
 #sign-up {
