@@ -109,16 +109,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.6",
+            "version": "4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "1fb4b67e331d82f9061eaf3fcbc94163db85c135"
+                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/1fb4b67e331d82f9061eaf3fcbc94163db85c135",
-                "reference": "1fb4b67e331d82f9061eaf3fcbc94163db85c135",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
+                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
                 "shasum": ""
             },
             "require": {
@@ -142,7 +142,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-08-16 18:32:04"
+            "time": "2016-09-07 15:01:47"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -309,15 +309,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7-to-database-extension",
-            "version": "2.10.21",
+            "version": "2.10.25",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7-to-database-extension/",
-                "reference": "tags/2.10.21"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7-to-database-extension.2.10.21.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7-to-database-extension.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -450,15 +450,15 @@
         },
         {
             "name": "wpackagist-plugin/maintenance",
-            "version": "3.1",
+            "version": "3.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/maintenance/",
-                "reference": "tags/3.1"
+                "reference": "tags/3.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/maintenance.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/maintenance.3.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -470,15 +470,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "2.9.58",
+            "version": "3.0.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/2.9.58"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.58.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -570,15 +570,15 @@
         },
         {
             "name": "wpackagist-plugin/wc-shortcodes",
-            "version": "1.93",
+            "version": "1.97",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wc-shortcodes/",
-                "reference": "tags/1.93"
+                "reference": "tags/1.97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wc-shortcodes.1.93.zip",
+                "url": "https://downloads.wordpress.org/plugin/wc-shortcodes.1.97.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -590,15 +590,15 @@
         },
         {
             "name": "wpackagist-plugin/wonderm00ns-simple-facebook-open-graph-tags",
-            "version": "1.7.3.1",
+            "version": "2.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wonderm00ns-simple-facebook-open-graph-tags/",
-                "reference": "tags/1.7.3.1"
+                "reference": "tags/2.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wonderm00ns-simple-facebook-open-graph-tags.1.7.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wonderm00ns-simple-facebook-open-graph-tags.2.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
