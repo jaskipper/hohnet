@@ -1,16 +1,6 @@
 # Application
 web/app/plugins/*
 !web/app/plugins/.gitkeep
-!web/app/plugins/starter*
-!web/app/plugins/themeum*
-!web/app/plugins/twitters-bootstrap-shortcodes-ultimate-js
-!web/app/plugins/give-dwolla
-!web/app/plugins/give-form-field-manager
-!web/app/plugins/give-mailchimp
-!web/app/plugins/give-manual-donations
-!web/app/plugins/give-pdf-receipts
-!web/app/plugins/give-recurring
-!web/app/plugins/give-stripe
 web/app/mu-plugins/*/
 web/app/upgrade
 web/app/uploads/*
