@@ -2,7 +2,7 @@
 /*
  * Template Name: Frontpage
  */
-get_header(); 
+get_header();
 
 ?>
 <?php
@@ -51,16 +51,16 @@ get_header();
 				if( $page_section == 'default' ){		// Default Content Page
 				?>
 					<section id="<?php echo $post->post_name; ?>" class="page-wrapper <?php echo getContrast50( $bg_color ); ?>" style="background-color:<?php echo $bg_color; ?>">
-						<div class="container">
+						<div class="container fp-top">
 							<?php
 							if( $no_title != 1 ){
 								$page_title 		= get_post_meta( $post->ID, 'thm_page_title', true );
 								$page_subtitle 		= get_post_meta( $post->ID, 'thm_page_subtitle', true );
-							?> 
+							?>
 								<div class="title-area">
 									<div class="">
 										<h2 class="title"><?php if($page_title != '') { echo $page_title; }else{ echo get_the_title(); } ?> </h2>
-	
+
 										<?php if( $page_subtitle != ''){ ?>
 											<p class="subtitle"><?php echo $page_subtitle; ?></p>
 										<?php } ?>
@@ -68,7 +68,7 @@ get_header();
 								</div> <!-- .section-title -->
 							<?php }?>
 
-							<div class="row page-content">	
+							<div class="row page-content">
 								<?php echo do_shortcode(get_the_content()); ?>
 							</div> <!-- .page-content -->
 						</div> <!-- .container -->
@@ -83,17 +83,17 @@ get_header();
 							if( $no_title != 1 ){
 								$page_title 		= get_post_meta( $post->ID, 'thm_page_title', true );
 								$page_subtitle 		= get_post_meta( $post->ID, 'thm_page_subtitle', true );
-							?> 
+							?>
 							<div class="title-area">
 								<h2 class="title"><?php if($page_title != '') { echo $page_title; }else{ echo get_the_title(); } ?> </h2>
 
 								<?php if( $page_subtitle != ''){ ?>
 									<p class="subtitle"><?php echo $page_subtitle; ?></p>
 								<?php } ?>
-								
+
 							</div> <!-- .section-title -->
 						<?php }?>
-						<div class="page-fullwdth-content">	
+						<div class="page-fullwdth-content">
 								<?php echo do_shortcode(get_the_content()); ?>
 						</div> <!-- .page-fullwdth-content -->
 					</div> <!-- .page-content -->
@@ -108,20 +108,20 @@ get_header();
 				?>
 					<section id="<?php echo $post->post_name; ?>" class="parallax parallax-image <?php echo getContrast50( $bg_color ); ?>" style="background-color: <?php echo $bg_color; ?>; background-image:url('<?php if(isset($image)) echo $image;?>');">
 						<div class="overlay"></div>
-						<div class="container">
+						<div class="container <?php echo $post->post_name; ?>">
 							<div  class="parallax-content">
 								<?php
 									if( $no_title != 1 ){
 										$page_title 		= get_post_meta( $post->ID, 'thm_page_title', true );
 										$page_subtitle 		= get_post_meta( $post->ID, 'thm_page_subtitle', true );
-									?> 
+									?>
 									<div class="title-area">
 										<h2 class="title"><?php if($page_title != '') { echo $page_title; }else{ echo get_the_title(); } ?> </h2>
 
 										<?php if( $page_subtitle != ''){ ?>
 											<p class="subtitle"><?php echo $page_subtitle; ?></p>
 										<?php } ?>
-										
+
 									</div> <!-- .section-title -->
 								<?php }?>
 								<div class="row">
@@ -146,7 +146,7 @@ get_header();
 				$output .='<script type="text/javascript">';
 				$output .='jQuery(document).ready(function($) {';
 				$output .='$(window).load(function(){';
-					
+
 				foreach( $parallaxId as $id ){
 					$output .='$("#'.$id.'").parallax("50%", 0.5);';
 				}
@@ -160,7 +160,5 @@ get_header();
 			add_action('wp_footer','add_my_script',100);
 		} // add parallax
 	}
-
 ?>
-
 <?php get_footer(); ?>

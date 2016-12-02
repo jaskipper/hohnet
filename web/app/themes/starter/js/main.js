@@ -36,14 +36,14 @@ jQuery(document).ready(function($) {
         obj[id].style.display = displaystyle;
     }
 
-    function headersetup() {
+    /*function headersetup() {
         var adminbarheight = $('#wpadminbar').height();
         var headerheight = $('.site-header').height();
         if (adminbarheight > 0) {
             $('.site-header').css('top', (adminbarheight) + 'px');
         }
         $('#default-starter').css('padding-top', headerheight + 'px');
-    }
+    }*/
 
     function teamboxbouncein() {
         var windowsize = $(window).width();

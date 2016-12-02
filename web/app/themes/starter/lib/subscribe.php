@@ -1,7 +1,8 @@
 <?php
-
 require_once 'MailChimp.php';
 use \DrewM\MailChimp\MailChimp;
+require_once('../../../../../vendor/autoload.php');
+require_once('../../../../../config/application.php');
 
 // Email address verification
 function isEmail($email) {
@@ -18,9 +19,9 @@ function isEmail($email) {
 
 if($_POST) {
 
-    $mailchimp_api_key = $MAILCHIMP_API_KEY; // enter your MailChimp API Key
+    $mailchimp_api_key = MAILCHIMP_API_KEY; // enter your MailChimp API Key
     // ****
-    $mailchimp_list_id = $MAILCHIMP_LIST_ID; // enter your MailChimp List ID
+    $mailchimp_list_id = MAILCHIMP_LIST_ID; // enter your MailChimp List ID
     // ****
 
     $subscriber_email = addslashes( trim( $_POST['email'] ) );

@@ -66,6 +66,8 @@ define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', getenv('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
 define('WP_DEFAULT_THEME', 'sage');
+define('MAILCHIMP_API_KEY', getenv('MAILCHIMP_API_KEY'));
+define('MAILCHIMP_LIST_ID', getenv('MAILCHIMP_LIST_ID'));
 
 /**
  * Bootstrap WordPress
