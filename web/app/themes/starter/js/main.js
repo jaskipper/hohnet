@@ -101,7 +101,6 @@ jQuery(document).ready(function($) {
         $('.navbar-collapse').collapse('toggle');
     });
     //new WOW().init();
-    headersetup();
     teamboxbouncein();
     //stickyNav();
     $(".imgLiquidFill").imgLiquid();
@@ -146,13 +145,11 @@ jQuery(document).ready(function($) {
     });
 
     $(window).resize(function() {
-        headersetup();
         teamboxbouncein();
         twitterSize();
     })
     $(window).scroll(function() {
         //stickyNav();
-        headersetup();
         //Scroll to Top
         if ($(this).scrollTop() >= 200) { // If page is scrolled more than 50px
             $('#return-to-top').css('opacity', '1'); // Fade in the arrow
