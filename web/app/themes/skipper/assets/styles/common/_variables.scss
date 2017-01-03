@@ -1,9 +1,21 @@
-// Glyphicons font path
-$icon-font-path:        "../fonts/";
+// Colors
+$brand-primary:         #FB6648;
+$brand-info:            #32809E;
+$brand-warning:         #FBA548;
+$brand-success:         #34B664;
+
+$color-1: #ECDFBD;
+$color-2: #20457C;
+$color-3: #3B3A35;
+$color-4: #FB6648;
+$color-5: #5E3448;
+
+// Global options
+$enable-flex:           true;
 
 // Grid settings
 $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
-// Colors
-$brand-primary:         #27ae60;
+// Vendor variables
+$fa-font-path:          '~font-awesome/fonts';

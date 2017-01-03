@@ -1,0 +1,86 @@
+body > .parallax > footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 0 30px;
+  font-size: .9rem;
+}
+.footer-menu {
+    list-style: disc;
+    display: block;
+    li {
+        position: relative;
+    }
+    li:first-child {
+        margin-left: 0;
+    }
+    li:last-child {
+        margin-right: 0;
+    }
+    li:last-child:before {
+        display: none;
+    }
+}
+.footer-sm {
+  ul {
+      overflow: auto;
+      padding-left: 0;
+      li {
+          float: none;
+          list-style-type: none;
+          float: left;
+          margin-top: 6px;
+          i {
+              background: #205D7A;
+              color: #fff;
+              width: 34px;
+              height: 34px;
+              border-radius: 20px;
+              font-size: 20px;
+              text-align: center;
+              margin-right: 6px;
+              padding-top: 18%;
+          }
+      }
+      @media (max-width:767px) {
+        margin-top: 30px;
+        max-width: 100%;
+        margin-left: auto;
+        padding-left: 0;
+        margin-right: auto
+      }
+  }
+  .skipperinnovations {
+      margin-right: 6px;
+      margin-top: 10px;
+      img {
+          float: left;
+      }
+  }
+  .fa-facebook {
+      background: #3b5998
+  }
+  .fa-linkedin {
+      background: #007bb6
+  }
+  .fa-twitter {
+      background: #00aced
+  }
+  .google-plus {
+      background: #dd4b39
+  }
+  .fa-youtube {
+      background: #b00
+  }
+  .jordan {
+      background: green
+  }
+  .norah {
+      background: #ff45d9
+  }
+  .fa-instagram {
+      background: #517fa4
+  }
+  .fa-pinterest {
+      background: #cb2027
+  }
+}

@@ -1,0 +1,40 @@
+section .parallax__layer--base {
+  padding: 60px 0;
+}
+#landing {
+  color: #fff;
+  font-size: 200%;
+  text-align: center;
+  z-index: -4;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  .parallax__layer--back {
+    background-image: url("/app/uploads/2017/01/sucrestreet.jpg");
+    transform: translateZ(-1px) scale(2);
+  }
+}
+#links {
+  background-color: #fff;
+  z-index: 1;
+}
+#about {
+  color: #fff;
+  z-index: -3;
+  background-image: url("/app/uploads/2016/12/grungemap2-2-1-1.jpg");
+  background-attachment: fixed;
+}
+#whatsup {
+  background-color: #fff;
+  z-index: 1;
+}
+#churches {
+  color: #fff;
+  z-index: -2;
+  .parallax__layer--back {
+    background-image: url("/app/uploads/2017/01/Walking-Heads.jpg");
+    transform: translateZ(-1px) scale(3.5);
+  }
+}
+#mailing {
+  background-color: #fff;
+}

@@ -1,0 +1,23 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+.banner .nav a {
+  @extend .nav-link;
+}
+.navbar-nav .nav-item + .nav-item, .navbar-nav .banner .nav li + .nav-item, .banner .nav .navbar-nav li + .nav-item, .navbar-nav .banner .nav .nav-item + li, .banner .nav .navbar-nav .nav-item + li, .navbar-nav .banner .nav li + li, .banner .nav .navbar-nav li + li {
+  margin-left: 1.5rem;
+}
+// Add space for admin-bar on elements along the top
+.admin-bar, .admin-bar .nav-primary, .admin-bar #landing  {
+  top: 32px;
+  @media (max-width: 782px) {
+    top: 46px;
+  }
+}
+.navbar-fixed-top {
+  @media (max-width: 600px) {
+    position: absolute;
+  }
+}
+.navbar {
+}

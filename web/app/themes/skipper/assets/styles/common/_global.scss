@@ -1,1 +1,47 @@
+//@include parallax-init(1, 'body', true);
+html {
+}
+body {
+}
+.page, .single, .blog, .archive, body.author {
+  padding-top: 120px;
+}
+.home {
+  padding-top: 0;
+}
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.feature-box {
+    overflow: hidden;
+    margin: 20px 0;
+}
 
+.feature-box-1 {
+    margin-right: 20px;
+}
+
+.feature-box-1 span {
+    background: #82a12d;
+    color: #fff;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    border: 0 none;
+    border-radius: 50%;
+}
+
+.feature-box-1 .icon-custom-style {
+    font-size: 23px;
+    line-height: 55px;
+}
+
+.feature-box-2 {
+    overflow: hidden;
+}
+
+.feature-box-2 h3 {
+    margin-top: 0;
+}

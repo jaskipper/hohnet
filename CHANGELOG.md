@@ -1,3 +1,66 @@
+### 1.7.3: 2016-12-06
+
+* Update to WordPress 4.7
+* Default `WP_ENV` to `production` instead of `development` ([#277](https://github.com/roots/bedrock/pull/277))
+
+### 1.7.2: 2016-09-07
+
+* Update to WordPress 4.6.1
+
+### 1.7.1: 2016-08-16
+
+* Update to WordPress 4.6
+
+### 1.7.0: 2016-07-10
+
+* Bump PHP requirement to >= 5.6 (5.5 is no longer supported)
+
+### 1.6.4: 2016-06-21
+
+* Update to WordPress 4.5.3
+
+### 1.6.3: 2016-05-06
+
+* Update to WordPress 4.5.2
+
+### 1.6.2: 2016-04-26
+
+* Update to WordPress 4.5.1
+
+### 1.6.1: 2016-04-12
+
+* Update to WordPress 4.5
+* Update coding standards (PSR-2) ([#244](https://github.com/roots/bedrock/pull/244))
+
+### 1.6.0: 2016-03-03
+
+* Add wp-password-bcrypt for more secure passwords ([#243](https://github.com/roots/bedrock/pull/243))
+
+### 1.5.4: 2016-02-29
+
+* Use HTTPS for wpackagist.org
+
+### 1.5.3: 2016-02-03
+
+* Update to WordPress 4.4.2
+
+### 1.5.2: 2016-02-01
+
+* Bump `composer/installers` dependency to 1.0.23 to fix deprecation notice
+
+### 1.5.1: 2016-01-27
+
+* Use [oscarotero/env](https://github.com/oscarotero/env) instead of `getenv` ([#229](https://github.com/roots/bedrock/pull/233))
+
+### 1.5.0: 2016-01-17
+
+* Fix `DISABLE_WP_CRON` setting via ENV variable ([#229](https://github.com/roots/bedrock/pull/229))
+* Set default `DB_CHARSET` to `utf8mb4`
+
+### 1.4.7: 2016-01-07
+
+* Update to WordPress 4.4.1
+
 ### 1.4.6: 2015-12-09
 
 * Update to WordPress 4.4

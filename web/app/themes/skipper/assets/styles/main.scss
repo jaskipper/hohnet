@@ -1,11 +1,12 @@
 @import "common/variables";
 
-// Automatically injected Bower dependencies via wiredep (never manually edit this block)
-// bower:scss
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-// endbower
+// Import npm dependencies
+@import "~bootstrap/scss/bootstrap";
+@import "~font-awesome/scss/font-awesome";
 
 @import "common/global";
+@import "common/skipperextras";
+@import "common/animateit";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
@@ -17,3 +18,4 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+@import "pages/home";
