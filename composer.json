@@ -47,7 +47,9 @@
     "wpackagist-plugin/ewww-image-optimizer": ">=2.9.7",
     "wpackagist-plugin/give": ">1.6",
     "wpackagist-plugin/simple-share-buttons-adder": ">=6.2.4",
-    "wpackagist-plugin/custom-content-shortcode": ">=3.6.7"
+    "wpackagist-plugin/custom-content-shortcode": ">=3.6.7",
+    "wpackagist-plugin/shortcodes-ultimate": "4.9.9",
+    "wpackagist-plugin/page-scroll-to-id": "1.6.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

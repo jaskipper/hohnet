@@ -1,8 +1,8 @@
 .skipper-text-shadow {
-  text-shadow: 0 0 20px #000;
+  text-shadow: 0 0 12px #000;
 }
 .skipper-box-shadow {
-  box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 12px #000;
 }
 .skipper-bg1 {
   background-color: #fff;
@@ -13,103 +13,15 @@
   color: #fff;
   position: relative;
 }
-.color-1-bg {
-  background-color: $color-1;
-}
-.color-2-bg {
-  background-color: $color-2;
-}
-.color-3-bg {
-  background-color: $color-3;
-}
-.color-4-bg {
-  background-color: $color-4;
-}
-.color-5-bg {
-  background-color: $color-5;
-}
-.color-1 {
-  color: $color-1;
-}
-.color-2 {
-  color: $color-2;
-}
-.color-3 {
-  color: $color-3;
-}
-.color-4 {
-  color: $color-4;
-}
-.color-5 {
-  color: $color-5;
-}
 .border-bottom {
   border-bottom: 1px solid #ededed;
   padding-bottom: 8px;
 }
-#whatsup {
-  #news {
-    .blogentry {
-      overflow: hidden;
-    }
-    .postimg-wrap {
-      display: flex;
-    }
-    .postimg {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      flex: 1;
-      min-height: 160px;
-    }
-    .skippost {
-      font-size: .85rem;
-    }
-    .blogtext {
-      background-color: #F4F9FB;
-    }
-  }
-  #skippertwitter {
-    display: flex;
-    flex-direction: column;
-    iframe {
-      flex: 1;
-      @media screen and (max-width: 575px) {
-        padding: 0 30px;
-      }
-    }
-  }
+.flex-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.parallax {
-  perspective: 1px;
+.fullvh {
   height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax__layer {
-  position: absolute;
-  height: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px);
-  background-size: cover;
-}
-.parallax__group {
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.5s;
-}
-.overlaycontent {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }

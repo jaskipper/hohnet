@@ -10,44 +10,42 @@
     @php(do_action('get_header'))
     @include('partials.header')
     <div class="parallax">
-      <!--<div class="parallax__group">
-        <div class="parallax__layer parallax__layer--back">
-          <div class="title">Back layer</div>
-        </div>
-        <div class="parallax__layer parallax__layer--base">
-          <div class="title">Base Layer</div>
-        </div>
-      </div>-->
 
-      <section id="landing" class="parallax__group">
-        <div class="parallax__layer parallax__layer--back"></div>
-        <div class="parallax__layer parallax__layer--base">
-          <div class="overlaycontent skipper-text-shadow">
-            <h1>The Hand of Hur, Inc.</h1>
-            <h2>Loving the World and Connecting it to God's Infinite Grace & Power</h2>
+      <section id="landing" class="p_group skipper-text-shadow">
+        <div class="bgimage p_layer p_layer-1"></div>
+        <div class="p_overlay p_layer p_layer-2 "></div>
+        <div class="container flex-middle fullvh">
+          <div class="row p_layer-4 pb-1">
+            <div class="col-sm-12">
+              <h1 class="">The Hand of Hur, Inc.</h1>
+            </div>
+          </div>
+          <div class="row p_layer-3 pt-1">
+            <div class="col-sm-12">
+              <p class="subtitle">Loving the World and Connecting it to God's Infinite Grace & Power</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="links" class="skipper-box-shadow">
+      <section id="links" class="skipper-box-shadow p_group">
           @include('home.links')
       </section>
 
-      <section id="about">
+      <section id="about" class="p_group">
         @include('home.aboutskippers')
       </section>
 
-      <section id="whatsup" class="skipper-box-shadow">
+      <section id="whatsup" class="skipper-box-shadow" class="p_group">
         @include('home.whatsup')
       </section>
 
-      <section id="churches" class="parallax__group">
-        <div class="parallax__layer parallax__layer--back"></div>
+      <section id="churches" class="p_group">
+        <div class="p_layer p_layer-back"></div>
         @include('home.churches')
       </section>
 
-      <section id="mailing" class="parallax__group skipper-box-shadow">
-        <div class="parallax_layer parallax__layer--back"></div>
+      <section id="mailing" class="rellax skipper-box-shadow" class="p_group">
         @include('home.mailing')
       </section>
 

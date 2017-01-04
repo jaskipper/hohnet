@@ -445,7 +445,7 @@ $('.animatedClick').click(function(){
   }
 });
 
-$(document.body).on('appear', '.animatedParent', function(e, $affected){
+$('.parallax').on('appear', '.animatedParent', function(e, $affected){
   var ele = $(this).find('.animated');
   var parent = $(this);
 
@@ -471,7 +471,7 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
 
 });
 
- $(document.body).on('disappear', '.animatedParent', function(e, $affected) {
+ $('.parallax').on('disappear', '.animatedParent', function(e, $affected) {
   if(!$(this).hasClass('animateOnce')){
     $(this).find('.animated').removeClass('go');
    }
