@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2be9994dfeb645c902a32514cf121b19",
+    "content-hash": "37b49170404ab2277ee82d4d422b5f2f",
     "packages": [
         {
             "name": "composer/installers",
@@ -525,6 +525,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/page-scroll-to-id/"
+        },
+        {
+            "name": "wpackagist-plugin/safe-svg",
+            "version": "1.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/safe-svg/",
+                "reference": "tags/1.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.1.3.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/safe-svg/"
         },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
