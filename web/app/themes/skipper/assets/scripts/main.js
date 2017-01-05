@@ -1,7 +1,8 @@
 // import external dependencies
 import 'jquery';
 import 'bootstrap/dist/js/bootstrap';
-import './plugins/css3-animate-it/css3-animate-it';
+import 'jarallax/jarallax/jarallax';
+import 'smoothscroll-for-websites/SmoothScroll';
 
 // import local dependencies
 import Router from './util/router';

@@ -3,23 +3,21 @@
     <!-- Column 1 -->
     <div id="news" class="col-xs-12 col-md-6">
       <h3 class="border-bottom">From the Blog</h3>
-        {{ start_short() }}
-        [loop type="post" count="3"]
-        <div class="container skippost mt-1 mb-1">
-          <div class="row blogentry rounded">
-            <div class="col-xs-12 col-xl-5 postimg-wrap pr-0 pl-0">
-              <div class="postimg" style='background-image: url([field image-url])'></div>
-            </div>
-            <div class="col-xs-12 col-xl-7 pt-1 blogtext">
-              <h4>[link][field title][/link]</h4>
-              <p class="mb-0 text-muted"><em><small>[field date] - [field author]</small></em></p>
-              <p class="mb-0">[field excerpt]...</p>
-              <p class="text-xs-right mb-1"><em>[link]Continue Reading...[/link]</em></p>
-            </div>
-          </div>
-        </div>
-        [/loop]
-        {{ end_short() }}
+      <!-- Get Loop - Need to learn to do this with Blade -->
+      <?
+        $args = array('post_type' => 'post','posts_per_page'=>'3');
+        $loop = new WP_Query( $args );
+        // Limit the Front Page excerpts to 30 words
+        function custom_excerpt_length( $length ) {
+  	        return 30;
+        }
+        add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+      ?>
+      @while ($loop->have_posts()) @php($loop->the_post())
+        @include('partials.content')
+      @endwhile
+      <!-- End Loop -->
+      <div class="border-bottom"></div>
       <p class="mt-1 text-xs-center font-weight-bold lead"><a href="/blog">READ MORE FROM THE BLOG</a></p>
       <div class="spacer hidden-md-up pb-3"></div>
     </div>

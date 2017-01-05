@@ -3,21 +3,32 @@ html {
 }
 body {
 }
+body.home {
+  background-color: #222;
+}
+.mainwrap {
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .content {
+    h1 {
+      border-bottom: 2px solid $off-white;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+  }
+}
 .page, .single, .blog, .archive, body.author {
-  padding-top: 120px;
+  padding-top: 56px;
 }
 .home {
   padding-top: 0;
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+  }
 }
-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  position: relative;
-}
-.background-img {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-position: center center;
-  background-size: cover;
+.give-form-title {
+  display: none;
 }

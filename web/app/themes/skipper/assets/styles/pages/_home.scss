@@ -2,83 +2,57 @@
   padding-top: 0;
   color: #fff;
   text-align: center;
-  z-index: -4;
-  height: 100vh;
-  .container {
-    transform-style: preserve-3d;
-  }
   h1 {
-    -webkit-animation: .5s .25s fade backwards ease-out;
-    -o-animation: .5s .25s fade backwards ease-out;
-    animation: .5s .25s fade backwards ease-out;
     font-size: 3.5rem;
-  }
-  .subtitle {
-    font-size: 1.4rem;
-    color: #aaaaaa;
-    text-transform: uppercase;
-    letter-spacing: .35em;
-    word-spacing: .5em;
-    margin: .5em 0;
-    -webkit-animation: .5s .5s fade backwards ease-out;
-    -o-animation: .5s .5s fade backwards ease-out;
-    animation: .5s .5s fade backwards ease-out;
-  }
-  .bgimage {
-    background-image: url("/app/uploads/2017/01/sucrestreet.jpg");
-    background-size: cover;
-  }
-  .overlay {
-    background-color: rgba(0 , 0, 0, .5);
+    @media (max-width: 991px) {
+      font-size: 3.2rem;
+    }
+    @media (max-width: 767px) {
+      font-size: 2.8rem;
+    }
   }
 }
 #links {
-  background-color: #fff;
   position: relative;
   .feature-box {
-      overflow: hidden;
-      margin: 20px 0;
-      position: relative;
+    margin: 20px 0;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px
   }
-  .feature-box-1 {
-      margin-right: 20px;
-  }
-  .feature-box-1 span {
-      background: #82a12d;
-      color: #fff;
+  .fb-icon {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    span {
       display: inline-block;
-      width: 55px;
-      height: 55px;
+      width: 6rem;
+      height: 6rem;
       text-align: center;
-      border: 0 none;
-      border-radius: 50%;
+      i {
+        line-height: 6rem;
+      }
+    }
   }
-  .feature-box-1 .icon-custom-style {
-      font-size: 23px;
-      line-height: 55px;
-  }
-  .feature-box-2 {
-      overflow: hidden;
-  }
-  .feature-box-2 h3 {
+  .fb-text {
+    overflow: hidden;
+    h3 {
       margin-top: 0;
+    }
   }
 }
 #about {
   color: #fff;
-  background-image: url("/app/uploads/2016/12/grungemap2-2-1-1.jpg");
-  background-position: center center;
-  background-repeat:no-repeat;
   background-attachment: fixed;
 }
 #whatsup {
-  background-color: #fff;
   #news {
     .blogentry {
-      overflow: hidden;
     }
     .postimg-wrap {
-      display: flex;
+    }
+    .skippost:hover {
+      background-color: $off-white;
     }
     .postimg {
       background-position: center;
@@ -86,12 +60,6 @@
       background-size: cover;
       flex: 1;
       min-height: 160px;
-    }
-    .skippost {
-      font-size: .85rem;
-    }
-    .blogtext {
-      background-color: #F4F9FB;
     }
   }
   #skippertwitter {
@@ -107,13 +75,12 @@
 }
 #churches {
   color: #fff;
-  z-index: -2;
-  .p_layer-back {
-    background-image: url("/app/uploads/2017/01/Walking-Heads.jpg");
-    transform: translateZ(-1px) scale(3.5);
-    background-size: cover;
+  .churches {
+    img {
+      max-width: 100%;
+    }
   }
+
 }
 #mailing {
-  background-color: #fff;
 }

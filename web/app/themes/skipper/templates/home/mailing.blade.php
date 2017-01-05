@@ -1,7 +1,7 @@
 <div class="container">
   <h3>Don't forget to subscribe to our Mailing List...</h3>
   <div class="mysubscriptionform">
-    <form class="subscribe" role="form" action="/app/themes/starter/lib/subscribe.php" method="post">
+    <form class="subscribe" role="form" action="/app/themes/skipper/src/lib/Mailchimp/subscribe.php" method="post">
       <div class="row">
         <div class="col-sm-4 col-md-5">
           <div class="form-group">

@@ -1,7 +1,7 @@
 // Grid system
 .main {
   @include make-col-ready();
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     @include make-col($main-sm-columns);
     .sidebar-primary & {
       @include make-col($main-sm-columns - $sidebar-sm-columns);
@@ -10,7 +10,7 @@
 }
 .sidebar {
   @include make-col-ready();
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     @include make-col($sidebar-sm-columns);
   }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2be9994dfeb645c902a32514cf121b19",
+    "content-hash": "0ffb18a4edadcac3cd2246d02e594854",
     "packages": [
         {
             "name": "composer/installers",
@@ -545,6 +545,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/shortcodes-ultimate",
+            "version": "4.9.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate/",
+                "reference": "tags/4.9.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.4.9.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/shortcodes-ultimate/"
         },
         {
             "name": "wpackagist-plugin/simple-share-buttons-adder",

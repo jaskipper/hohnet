@@ -9,49 +9,46 @@
     <![endif]-->
     @php(do_action('get_header'))
     @include('partials.header')
-    <div class="parallax">
 
-      <section id="landing" class="p_group skipper-text-shadow">
-        <div class="bgimage p_layer p_layer-1"></div>
-        <div class="p_overlay p_layer p_layer-2 "></div>
-        <div class="container flex-middle fullvh">
-          <div class="row p_layer-4 pb-1">
-            <div class="col-sm-12">
-              <h1 class="">The Hand of Hur, Inc.</h1>
+      <section id="landing" class="jarallax fullvh" data-jarallax='{"speed": 0.4}' style='background-image: url(/app/uploads/2017/01/sucrestreet.jpg)'>
+        <div class="overlay fullvh flex-middle">
+          <div class="container skipper-text-shadow">
+            <div class="row" data-aos="zoom-in">
+              <div class="col-sm-12">
+                <h1 class="hvr-grow">The Hand of Hur, Inc.</h1>
+              </div>
             </div>
-          </div>
-          <div class="row p_layer-3 pt-1">
-            <div class="col-sm-12">
-              <p class="subtitle">Loving the World and Connecting it to God's Infinite Grace & Power</p>
+            <div class="row">
+              <div class="col-sm-12">
+                <p class="subtitle" data-aos="zoom-in" data-aos-delay="800">Loving the World and Connecting it to God's Infinite Grace & Power</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="links" class="skipper-box-shadow p_group">
+      <section id="links" class="skipper-box-shadow bg-white">
           @include('home.links')
       </section>
 
-      <section id="about" class="p_group">
+      <section id="about" style='background-image: url(/app/uploads/2016/12/grungemap2-2-1-1.jpg)'>
         @include('home.aboutskippers')
       </section>
 
-      <section id="whatsup" class="skipper-box-shadow" class="p_group">
+      <section id="whatsup" class="skipper-box-shadow bg-white">
         @include('home.whatsup')
       </section>
 
-      <section id="churches" class="p_group">
-        <div class="p_layer p_layer-back"></div>
+      <section id="churches" class="jarallax" data-jarallax='{"speed": 0.2}' style='background-image: url(/app/uploads/2017/01/Walking-Heads.jpg)'>
         @include('home.churches')
       </section>
 
-      <section id="mailing" class="rellax skipper-box-shadow" class="p_group">
+      <section id="mailing" class="skipper-box-shadow bg-white">
         @include('home.mailing')
       </section>
 
     @php(do_action('get_footer'))
     @include('partials.footer')
-    </div> <!-- Parallax -->
     @php(wp_footer())
   </body>
 </html>
