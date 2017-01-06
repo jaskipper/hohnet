@@ -5,6 +5,7 @@
   </header>
   <div class="entry-content">
     @php(the_content())
+    @include('partials/social-sharing')
   </div>
   <footer>
     {!! wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}

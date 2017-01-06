@@ -4648,6 +4648,10 @@ sntp@1.x.x:
   dependencies:
     hoek "2.x.x"
 
+social-sharing@cferdinandi/social-sharing:
+  version "1.7.2"
+  resolved "https://codeload.github.com/cferdinandi/social-sharing/tar.gz/f8b3ac4dfb1d85fd6b83c27f4f5d9f4ef7d3b62d"
+
 socket.io-adapter@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/socket.io-adapter/-/socket.io-adapter-0.4.0.tgz#fb9f82ab1aa65290bf72c3657955b930a991a24f"
