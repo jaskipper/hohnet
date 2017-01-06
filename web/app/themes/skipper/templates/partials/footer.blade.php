@@ -13,7 +13,7 @@
           Telephone: <a href="mailto:615-900-0757" class="encrypted-email">615-900-0757</a><br>
           E-Mail: <a href="mailto:jasonskipper@gmail.com" class="encrypted-email">jasonskipper@gmail.com</a>
         </p>
-        <p class="fplastlttext">© 2017 The Hand of Hur, Inc.  |  All Rights Reserved.</p>
+        <p class="fplastlttext">© 2017 The Hand of Hur, Inc. <a href="/privacy-terms"><em>(Privacy & Terms)</em></a></p>
       </div>
       <div class="col-xs-12 col-md-4 footer-links">
         <h3 class="border-bottom">Links</h3>
@@ -37,8 +37,8 @@
           <li class="hvr-grow" data-toggle="tooltip" data-title="Jason's Github Account" data-content="This is where Jason keeps his git repositories (coding). Check it out!"><a href="https://github.com/jaskipper" target="_blank" title="Jason's GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
         </ul>
         <div class="skipperinnovations">
-          <a target="_blank" href="http://www.skipperinnovations.com/" title="Skipper Innovations">
-            <img class="hvr-grow" data-toggle="tooltip" data-content="This is Jason's personal Business" src="https://skipperinnovations.com/app/themes/skipper/dist/images/SkipperInnovationsNewWht.svg" />
+          <a target="_blank" href="https://www.skipperinnovations.com/" title="Skipper Innovations">
+            <img class="hvr-grow" data-toggle="tooltip" data-content="This is Jason's personal Business" src="{{ get_template_directory_uri() }}/dist/images/skipperinnovationsLogo.svg" />
           </a>
         </div>
       </div>

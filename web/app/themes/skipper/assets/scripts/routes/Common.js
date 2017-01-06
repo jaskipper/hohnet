@@ -13,6 +13,16 @@ export default {
       $('[data-toggle="tooltip"]').tooltip()
     })
     var rellax = new Rellax('.rellax');
+    // Facebook Share Dialog
+    document.getElementById('facebookShare').onclick = function(e) {
+      e.preventDefault();
+      var shareurl = this.href;
+      FB.ui({
+        method: 'share',
+        mobile_iframe: true,
+        href: shareurl,
+      }, function(response){});
+    }
     // Mailchimp
     $('form.subscribe').submit(function(e) {
         e.preventDefault();
