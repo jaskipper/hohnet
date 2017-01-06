@@ -66,7 +66,7 @@ array_map(function ($file) use ($sage_error) {
  * └── TEMPLATEPATH           -> /srv/www/example.com/current/web/app/themes/sage/templates
  */
 if (App\config('sage.disable_option_hack')) {
-    return;
+    // return;
 }
 add_filter('template', function ($stylesheet) {
     return dirname($stylesheet);

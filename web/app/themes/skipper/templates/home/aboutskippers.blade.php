@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-4 hidden-sm-down">
       <a href="/app/uploads/2016/09/JasonNorahFenceA-2-2-2-copy.jpg">
-        <img class="alignleft size-full wp-image-2601 hvr-grow" style="width: 300px; max-width: 80%; margin-top: 80px; border-radius: 50%; border: 6px solid #666;" src="/app/uploads/2016/09/JasonNorahFenceA-2-2-2-copy.jpg" alt="jncircle" />
+        <img class="alignleft size-full wp-image-2601 hvr-grow" style="width: 300px; max-width: 80%; margin-top: 80px; border-radius: 50%; border: 6px solid #666;" src="/app/uploads/2016/09/JasonNorahFenceA-2-2-2-copy-1-768x768.jpg" alt="jncircle" />
       </a>
     </div>
     <div class="col-md-8">
@@ -12,7 +12,7 @@
         </div>
         <div class="hidden-md-up col-sm-4 col-xs-4 padding-right: 30px;">
           <a href="/app/uploads/2016/09/JasonNorahFenceA-2-2-2-copy.jpg">
-            <img class="size-full alignright wp-image-2601 hvr-grow" style="border-radius: 50%; border: 6px solid #666; width: 120px; max-width: 80%;" src="/app/uploads/2016/09/JasonNorahFenceA-2-2-2-copy.jpg" alt="jncircle" />
+            <img class="size-full alignright wp-image-2601 hvr-grow" style="border-radius: 50%; border: 6px solid #666; width: 120px; max-width: 80%;" src="/app/uploads/2016/09/JasonNorahFenceA-2-2-2-copy-1-768x768.jpg" alt="jncircle" />
           </a>
         </div>
       </div>

@@ -31,7 +31,7 @@
           @include('home.links')
       </section>
 
-      <section id="about" style='background-image: url(/app/uploads/2016/12/grungemap2-2-1-1.jpg)'>
+      <section id="about" style='background-image: url(/app/uploads/2017/01/grungemap-1.jpg)'>
         @include('home.aboutskippers')
       </section>
 
@@ -39,7 +39,7 @@
         @include('home.whatsup')
       </section>
 
-      <section id="churches" class="jarallax" data-jarallax='{"speed": 0.2}' style='background-image: url(/app/uploads/2017/01/Walking-Heads.jpg)'>
+      <section id="churches" class="jarallax" data-jarallax='{"speed": 0.2}' style='background-image: url(/app/uploads/2017/01/Walking-Heads-1024x576.jpg)'>
         @include('home.churches')
       </section>
 
