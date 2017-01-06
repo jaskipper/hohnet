@@ -14,7 +14,7 @@ export default {
     })
     var rellax = new Rellax('.rellax');
     // Facebook Share Dialog
-    document.getElementById('facebookShare').onclick = function(e) {
+    $('#facebookShare').click(function(e) {
       e.preventDefault();
       var shareurl = this.href;
       FB.ui({
@@ -22,7 +22,7 @@ export default {
         mobile_iframe: true,
         href: shareurl,
       }, function(response){});
-    }
+    });
     // Mailchimp
     $('form.subscribe').submit(function(e) {
         e.preventDefault();
