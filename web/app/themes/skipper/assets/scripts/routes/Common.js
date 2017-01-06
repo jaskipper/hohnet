@@ -16,7 +16,7 @@ export default {
     // Facebook Share Dialog
     $('#facebookShare').click(function(e) {
       e.preventDefault();
-      var shareurl = this.href;
+      var shareurl = $(this).attr('href');
       FB.ui({
         method: 'share',
         mobile_iframe: true,
