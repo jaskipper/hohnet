@@ -38,7 +38,7 @@
         </ul>
         <div class="skipperinnovations">
           <a target="_blank" href="https://www.skipperinnovations.com/" title="Skipper Innovations">
-            <img class="hvr-grow" data-toggle="tooltip" data-content="This is Jason's personal Business" src="{{ get_template_directory_uri() }}/dist/images/skipperinnovationsLogo.svg" />
+            <img class="hvr-grow" data-toggle="tooltip" data-content="This is Jason's personal Business" src="{{ get_template_directory_uri() }}/assets/images/skipperinnovationsLogo.svg" />
           </a>
         </div>
       </div>
