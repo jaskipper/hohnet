@@ -20,7 +20,7 @@ export default {
       FB.ui({
         method: 'share',
         mobile_iframe: true,
-        href: 'https://hohnet.com' + shareurl,
+        href: shareurl,
       }, function(response){});
     });
     // Mailchimp
