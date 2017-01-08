@@ -12,7 +12,6 @@ export default {
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
-    var rellax = new Rellax('.rellax');
     // Facebook Share Dialog
     $('#facebookShare').click(function(e) {
       e.preventDefault();
