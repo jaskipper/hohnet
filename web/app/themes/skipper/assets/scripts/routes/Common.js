@@ -52,6 +52,9 @@ export default {
                       //$('.top-content', this).backstretch("resize");
                         myformparent.find("input[type=text], textarea").val("");
                     });
+                    // Set Cookie to not show dialog box for a year (needs Skipper's exitmodal function)
+                    Cookies.set('exitmodalshown', true, { expires: 365 } );
+                    modalshown = Cookies.get('exitmodalshown');
                 }
             }
         });

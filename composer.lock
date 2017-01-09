@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bafd3e711a00d5f7be33efa307c48271",
+    "content-hash": "67ebb65e6cca3a3f7e784e35c780b7b9",
     "packages": [
         {
             "name": "composer/installers",
@@ -507,6 +507,26 @@
             "homepage": "https://wordpress.org/plugins/page-scroll-to-id/"
         },
         {
+            "name": "wpackagist-plugin/postman-smtp",
+            "version": "1.7.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/postman-smtp/",
+                "reference": "tags/1.7.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/postman-smtp.1.7.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/postman-smtp/"
+        },
+        {
             "name": "wpackagist-plugin/safe-svg",
             "version": "1.3.1",
             "source": {
@@ -525,26 +545,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/safe-svg/"
-        },
-        {
-            "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.10.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
         },
         {
             "name": "wpackagist-plugin/wonderm00ns-simple-facebook-open-graph-tags",
