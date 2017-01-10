@@ -19,11 +19,11 @@
         <h3 class="border-bottom">Links</h3>
         <p>Below are some websites that are useful or meaningful to us in some way.</p>
         <ul>
-          <li><a href="https://skipperinnovations.com" target="_blank" data-toggle="tooltip" data-title="Skipper Innovations" data-content="Skipper Innovations - My Business Website" title="Skipper Innovations - My Business Website">Skipper Innovations</a></li>
-          <li><a href="http://www.skipperstrings.com" target="_blank" data-toggle="tooltip" data-title="Skipper Strings" data-content="My Dad, Roger Skipper's Business website." title="My Dad, Roger Skipper's Business website.">Skipper Custom Instruments</a></li>
-          <li><a href="https://www.youtube.com/user/eebeeproductions/videos" target="_blank" data-toggle="tooltip" data-title="Erynn's YouTube" data-content="Erynn's (my daughter) YouTube Channel" title="Erynn's (my daughter) YouTube Channel">Erynn &amp; Bella's YouTube Channel</a></li>
-          <li><a href="https://www.youtube.com/channel/UCZ93Y7yJQkehtM71GlMK2VA" target="_blank" data-toggle="tooltip" data-title="Jordan's YouTube" data-content="Jordan's (my son) YouTube Channel" title="Jordan's (my son) YouTube Channel">Jordan's YouTube Channel</a></li>
-          <li><a href="https://www.youtube.com/channel/UCY8V8vHFqBGAlWmX9mAplIQ" target="_blank" data-toggle="tooltip" data-title="Derrick's YouTube" data-content="Derrick's (my son) YouTube Channel" title="Derrick's (my son) YouTube Channel">Derrick's YouTube Channel</a></li>
+          <li><a href="https://skipperinnovations.com" target="_blank" data-toggle="tooltip" data-title="Skipper Innovations" data-content="Skipper Innovations - Jason's Business Website" title="Skipper Innovations - My Business Website">Skipper Innovations</a></li>
+          <li><a href="http://www.skipperstrings.com" target="_blank" data-toggle="tooltip" data-title="Skipper Strings" data-content="Jason's Dad, Roger Skipper's Business website." title="Roger Skipper's <em>(Jason's Dad)</em> Business website.">Skipper Custom Instruments</a></li>
+          <li><a href="https://www.youtube.com/user/eebeeproductions/videos" target="_blank" data-toggle="tooltip" data-title="Erynn's YouTube" data-content="Our daughter Erynn's YouTube Channel" title="Erynn's YouTube Channel">Erynn &amp; Bella's YouTube Channel</a></li>
+          <li><a href="https://www.youtube.com/channel/UCZ93Y7yJQkehtM71GlMK2VA" target="_blank" data-toggle="tooltip" data-title="Jordan's YouTube" data-content="Our son Jordan's YouTube Channel" title="Jordan's YouTube Channel">Jordan's YouTube Channel</a></li>
+          <li><a href="https://www.youtube.com/channel/UCY8V8vHFqBGAlWmX9mAplIQ" target="_blank" data-toggle="tooltip" data-title="Derrick's YouTube" data-content="Our son Derrick's YouTube Channel" title="Derrick's YouTube Channel">Derrick's YouTube Channel</a></li>
         </ul>
       </div>
       <div class="col-xs-12 col-md-4 footer-social">
